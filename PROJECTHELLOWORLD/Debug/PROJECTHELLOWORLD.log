@@ -1,2 +1,3 @@
 ﻿  PROJECTHELLOWORLD.cpp
+c:\users\szymon\source\repos\projecthelloworld\projecthelloworld\projecthelloworld.cpp(57): warning C4305: '=': truncation from 'double' to 'float'
   PROJECTHELLOWORLD.vcxproj -> C:\Users\Szymon\source\repos\PROJECTHELLOWORLD\Debug\PROJECTHELLOWORLD.exe
