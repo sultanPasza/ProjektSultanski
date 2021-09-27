@@ -1,4 +1,7 @@
 ﻿  PROJECTHELLOWORLD.cpp
 c:\users\szymon\source\repos\projecthelloworld\projecthelloworld\projecthelloworld.cpp(57): warning C4305: '=': truncation from 'double' to 'float'
 c:\users\szymon\source\repos\projecthelloworld\projecthelloworld\projecthelloworld.cpp(198): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\szymon\source\repos\projecthelloworld\projecthelloworld\projecthelloworld.cpp(694): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\szymon\source\repos\projecthelloworld\projecthelloworld\projecthelloworld.cpp(931): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\szymon\source\repos\projecthelloworld\projecthelloworld\projecthelloworld.cpp(961): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   PROJECTHELLOWORLD.vcxproj -> C:\Users\Szymon\source\repos\PROJECTHELLOWORLD\Debug\PROJECTHELLOWORLD.exe
