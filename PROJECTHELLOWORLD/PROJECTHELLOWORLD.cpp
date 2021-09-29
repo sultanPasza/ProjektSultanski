@@ -785,10 +785,11 @@ int dodawanie(int a, int b)
 }
 
 //w 711 stworzylismy zmienna void dodawanie, w 782 stworzylismy zmienna int dodawanie, czy to nie bedzie bledne, nachodzic na siebie?
-//int main40()
+
+// int main40()
 //{
-	//int iWynik = dodawanie(123, 456);
-	//cout << "Wynik dodawania wynosi: " << iWynik << '\n';
+//int iwynik = dodawanie(123,456);
+//cout << "Wynik dodawania wynosi: " << iWynik <<'\n';
 //}
 
 // po uruchomieniu int 41 wyskakuje blad ze w 791 musi wyskoczyc wartosc
@@ -925,6 +926,8 @@ int main43()
 
 // jak przesunac ktora opcje wybierasz do nastepnej linijki?
 // zastrzezenia dla dzielenia plus przed wprowadzeniem blednej zmiennej
+// utworzyc nowy projekt
+// plik exe pokazac na zewnatrz (pokazac program na zewnatrz)
 
 int main44()
 {
@@ -937,23 +940,24 @@ int main44()
 	return 0;
 }
 
-//int main45()
+int mainTwojszczesliwynumerek()
 
-//{	
-	//do
-	//{
-		//srand(time(NULL));
-		//int liczba = (std::rand() % 5) + 1;
-		//int swojaliczba;
-		//cout << "Podaj swoja liczbe z przedzia³u 1-5" << '\n';
-		//cin >> swojaliczba;
-		//cout << "Wylosowana liczba to " << liczba << '\n';
-	//} while (liczba != swoja liczba);
-	//cout << "Sukces" << '\n';
-	//return 0;
-//}
+{	
+	int liczba;
+	int swojaliczba;
+	do
+	{
+		srand(time(NULL));
+		liczba = (std::rand() % 5) + 1;
+		cout << "Podaj swoja liczbe z przedzialu 1-5" << '\n';
+		cin >> swojaliczba;
+		cout << "Wylosowana liczba to " << liczba << '\n';
+	} while (liczba != swojaliczba);
+	cout << "Sukces" << '\n';
+	return 0;
+}
 
-// blad w while ()
+// wypisac liczbe strzalow 
 
 int main46()
 
@@ -968,9 +972,40 @@ int main46()
 	return 0;
 }
 
+
+// ZADANIE DOMOWE TABLICE JEDNOWYMIAROWE
+
+
+int main50()
+{
+	int liczba[9];
+	int licznik = 0;
+	do
+	{
+		liczba[licznik] = (std::rand() % 10) + 4;
+		licznik++;
+	} while (licznik < 10);
+
+	std::cout << "Podales nastepujace liczby: ";
+	licznik = 0;
+	do
+	{
+		std::cout << liczba[licznik] << ", ";
+		licznik++;
+	} while (licznik < 10);
+
+	return 0;
+}
+
+
+// nie wiem o co kaman
+
+
+
 int main()
 
 {
-	main46();
+	mainTwojszczesliwynumerek();
 	return 0;
 }
+
